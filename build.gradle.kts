@@ -23,7 +23,7 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 
-	implementation("io.github.wimdeblauwe:htmx-spring-boot-thymeleaf:2.0.1")
+	implementation("io.github.wimdeblauwe:htmx-spring-boot-thymeleaf:3.4.1")
 }
 
 tasks.withType<KotlinCompile> {
